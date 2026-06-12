@@ -33,14 +33,7 @@ A comprehensive quantitative finance and machine learning project analyzing Alph
 
 2. Deep Learning Performance
 
-+-------------------+------------+------------+------------+
-| Model             | MAE        | RMSE       | R-squared  |
-+-------------------+------------+------------+------------+
-| Fine-tuned GRU    | 3.373477   | 4.831708   | 0.995383   |
-| Initial GRU       | 4.757230   | 7.207941   | 0.989724   |
-| Initial LSTM      | 5.670447   | 8.256966   | 0.986516   |
-| Fine-tuned LSTM   | 8.197898   | 10.505571  | 0.978171   |
-| Initial RNN       | 15.316250  | 26.323886  | 0.862946   |
-+-------------------+------------+------------+------------+
+<img width="338" height="227" alt="image" src="https://github.com/user-attachments/assets/98263257-c6c1-415c-9ad6-bcd7ba24cbe0" />
+
 
 > **Summary:** The GRU/LSTM model outperformed the Vanilla RNN by 81.6% in RMSE, successfully capturing long-term temporal dependencies in stock trends without suffering from severe vanishing gradient issues.
